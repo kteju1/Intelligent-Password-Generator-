@@ -1,17 +1,18 @@
 It involves gathering user preferences through surveys and transforming the data into a format compatible with Open AI’s GPT-3 model.
 Data Collection and Surveys:
-- The first step involves gathering data from users through surveys. These surveys are designed to collect information about users’ password creation habits,
-  their preferences, and their understanding of password security.
-- Various demographic and behavioral factors are considered during data collection, including age, profession, online habits, and knowledge of security best practices.
-- The collected data serves as the foundation for understanding user behaviors and preferences related to password creation.
+- The first step involves gathering data from users through surveys. These surveys are designed to collect information about users’ password creation habits, their 
+  preferences, and their understanding of password security.
+- Various demographic and behavioral factors are considered during data collection, including age, profession, online habits, and knowledge of security best practices.
+- The collected data serves as the foundation for understanding user behaviors and preferences related to password creation.
 Data Preprocessing:
-- Once the survey data is collected, it undergoes preprocessing to ensure it is in a suitable format for analysis and machine learning.
-- Data preprocessing may involve cleaning, anonymizing, and structuring the survey responses to remove any personally identifiable information and prepare it
+- Once the survey data is collected, it undergoes preprocessing to ensure it is in a suitable format for analysis and machine learning.
+- Data preprocessing may involve cleaning, anonymizing, and structuring the survey responses to remove any personally identifiable information and prepare it
   for input into machine learning models.
 Machine Learning Model Integration:
 - The heart of the project lies in the integration of machine learning techniques, particularly OpenAI’s GPT-3 model.
-- The preprocessed survey data is fed into the machine learning model, which is trained to understand user preferences, behaviors, and security requirements in the context of password creation.
-- The model is fine-tuned to generate intelligent and personalized password recommendations based on individual user profiles and requirements.
+- The preprocessed survey data is fed into the machine learning model, which is trained to understand user preferences, behaviors, and security requirements in the context 
+  of password creation.
+- The model is fine-tuned to generate intelligent and personalized password recommendations based on individual user profiles and requirements.
 Password Strength Evaluation:
 - The machine learning model is equipped to evaluate thestrength of generated passwords against known security standards and best practices.
 - It considers factors such as password length, complexity, uniqueness, and resistance to common password attacks.
